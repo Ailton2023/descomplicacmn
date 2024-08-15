@@ -50,9 +50,13 @@ header {
  .conteiner{
     display: flex;
     align-items: center;
+ 
 
  }
 
+ #imagem_chefe {
+    border-radius: 10px;
+ }
 
 main{
    
@@ -249,7 +253,9 @@ h2#subtitulo {
 
 
 h2#subtituloDegrade{
-    background-image: linear-gradient(to bottom, var(--cor4), var(--cor5) );
+
+    
+    background-color: #006494;
     padding-top: 2px;
     padding-right: 2px;
     padding-bottom: 2px;
@@ -274,6 +280,7 @@ h2#subtituloDegrade{
 div   #normal{
     background-color: white;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.313);
+  margin-right: 10px;
  
  
  
