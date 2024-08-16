@@ -50,9 +50,8 @@ header {
  .conteiner{
     display: flex;
     align-items: center;
- 
+}
 
- }
 
  #imagem_chefe {
     border-radius: 10px;
@@ -75,7 +74,7 @@ main{
     
 }
 
-#mestre {
+#quadrado {
     display: flex;
     margin: 20px 2px;
     justify-content: space-evenly;
@@ -83,22 +82,22 @@ main{
     
 }
 
-aside>#primeiropapel {
+aside>#primeiroquadrado {
     background-color: #247ba019;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
-    margin-right: 4px;
+    margin-right: 8px;
     line-height: 2em;
      
 }
 
-#primeiropapel:hover{
+#primeiroquadrado:hover{
     border:  1px solid black;
 }
 
 
-#segundopapel:hover{
+#segundoquadrado:hover{
     border:  1px solid black;
 }
 
@@ -108,7 +107,7 @@ p:hover{
 }
 
 
-aside>#segundopapel {
+aside>#segundoquadrado {
     background-color: #247ba019;
     padding: 10px;
     border-radius: 10px;
@@ -277,10 +276,12 @@ h2#subtituloDegrade{
    
 }
 
-div   #normal{
+ #normal{
     background-color: white;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.313);
-  margin-right: 10px;
+    margin-right: 10px;
+
+ 
  
  
  
