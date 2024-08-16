@@ -47,7 +47,7 @@ header {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.475);
 }
 
- .conteiner{
+ main > section > article div.conteiner{
     display: flex;
     align-items: center;
 }
@@ -78,18 +78,30 @@ main{
     display: flex;
     margin: 20px 2px;
     justify-content: space-evenly;
+    align-items: center;
 
     
 }
 
-aside>#primeiroquadrado {
+#quadrado >   #primeiroquadrado {
     background-color: #247ba019;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
     margin-right: 8px;
     line-height: 2em;
+    text-indent: 30px;
      
+}
+
+
+aside>#segundoquadrado {
+    background-color: #247ba019;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+    line-height: 2em;
+    text-indent: 30px;
 }
 
 #primeiroquadrado:hover{
@@ -107,20 +119,13 @@ p:hover{
 }
 
 
-aside>#segundoquadrado {
-    background-color: #247ba019;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
-    line-height: 2em;
-}
 
 
 
 aside > h3 {
     text-align: center;
-    background-color: #006494;
-    color: white;
+    background-color: #efba32;
+    color: black;
     padding: 10px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
@@ -132,41 +137,50 @@ aside > h3 {
 }
 
 
- 
-main> section > div.abas nav#aspectos a {
+
+   div.abas nav a {
+
     display: inline-block;
-    padding: 5px;
-    background-color: #247BA0;
+    padding:  5px;
+    border: 1px solid black;
+    background: #006494;
+}
+    div.abas nav a.focus, 
+    div.abas nav a:focus  {
+        background-color: white;
+    }
 
-    border: 3px solid;
-    border-color: #efba32;
-} 
-
-
-main> section > div.abas nav#aspectos a:focus {
-                background: white;
-} 
-
-main> section > div.abas div{
-    background-color: rgb(232, 241, 238);
+    div.abas div{
+   background-color: white;
     padding: 10px;
     display: none;
-}
+} 
 
-main> section > div.abas div:target{
-   
+
+   div.abas div:target{
     display: block;
+
 }
 
 
+#texto_tarefa_doutrinamento{
+    background-color: #247ba019;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+    margin-right: 8px;
+    line-height: 2em;
+    text-indent: 30px;
+ 
 
 
-
-#conteiner{
+}
+/*#conteiner{
     display: flex;
-  
 }
+*/
 
+ 
 
 article{
     /*column-count: 2;*/
